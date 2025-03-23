@@ -15,11 +15,11 @@ h1{
     /* position: relative; */
 }
 
-.o{
+.O{
     position: relative;
 }
 
-.o:after{
+.O:after{
     content: "\1F6E1";
     font-size: 50px;
     line-height: 100px;
@@ -30,11 +30,11 @@ h1{
     right: 0;
 }
 
-.x{
+.X{
     position: relative;
 }
 
-.x:after{
+.X:after{
     content: "\2694";
     font-size: 50px;
     line-height: 100px;
