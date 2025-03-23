@@ -4,6 +4,8 @@ body{
 
 h1{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .square{
@@ -43,4 +45,15 @@ h1{
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+#playAgain{
+    display: none;
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

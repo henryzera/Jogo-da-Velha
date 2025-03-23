@@ -28,7 +28,8 @@ function handleMove(position){
 
     if (gameOver){
         winner = symbols[playerTime];
-        console.log(`O vencedor foi o '${winner}'`);
+        document.getElementById("result").innerHTML = `Game Over! O vencedor foi: ${winner}`;
+        document.getElementById("playAgain").style.display = 'block'
     }
 
     return gameOver;
