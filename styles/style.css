@@ -1,10 +1,11 @@
 body{
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
@@ -22,8 +23,9 @@ h1{
 }
 
 .O:after{
-    content: "\1F6E1";
-    font-size: 50px;
+    content: "O";
+    font-size: 2em;
+    font-weight: bold;
     line-height: 100px;
     position: absolute;
     top: 0;
@@ -37,8 +39,9 @@ h1{
 }
 
 .X:after{
-    content: "\2694";
-    font-size: 50px;
+    content: "X";
+    font-size: 2em;
+    font-weight: bold;
     line-height: 100px;
     position: absolute;
     top: 0;
@@ -48,12 +51,13 @@ h1{
 }
 
 #playAgain{
-    display: none;
+    display: block;
 }
 
 #menu{
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
